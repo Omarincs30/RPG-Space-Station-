@@ -6,8 +6,9 @@
 
 # Introduction and rules.
 def menu():
-    print("Welcome to Omar's Spaceship game, where you explore a spaceship")
-    print("Remeber that all answers must start with a captial letter")
+    print("Welcome to Omar's Spaceship game, where you explore a spaceship.")
+    print("Remeber that all answers must start with a captial letter.")
+    print("You can quit at any time by typing Quit.")
     print('''let's get started by completing one of the
     following actions: Go Exploring, Go Flying, Go Cooking, or Quit.''')
     while True:
@@ -15,7 +16,7 @@ def menu():
 # The First Choice starts here.
         if choice == "Go Exploring":
             print("You explore around and you find 2 doors, door 1 and 2")
-            Exploring = input("Do you go into door 1 or 2?")
+            Exploring = input("Do you go into door 1 or 2? ")
             if Exploring == "1":
                 print("You go in and you find an octupus in a cage!")
             elif Exploring == "2":
@@ -28,7 +29,7 @@ def menu():
 # The Second choice starts here.
         elif choice == ("Go Flying"):
             print("You go into the cockpit")
-            Flying = input("Do you want to be the pilot or navigator?")
+            Flying = input("Do you want to be the pilot or navigator? ")
             if Flying == "Pilot":
                 print("You are now in full control of the space ship.")
             elif Flying == "Navigator":
@@ -41,7 +42,7 @@ def menu():
 # The last choice starts here.
         elif choice == ("Go Cooking"):
             print("You go into the kitchen")
-            Cooking = input("Do you want to cook a salad or a hamburger?")
+            Cooking = input("Do you want to cook a salad or a hamburger? ")
             if Cooking == "Salad":
                 print("You cook a salad for the whole crew")
             elif Cooking == "Hamburger":
